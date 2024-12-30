@@ -1,0 +1,47 @@
+html{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
+
+#header-text{
+    margin-left: 9px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* I'm using space-between to push the items to either side.*/
+}
+#nav-links{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+}
+#nav-links li{
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+#banner{
+    background-color: black;
+    color: white;
+    height: 700px;
+}
+
+.banner-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-column{
+    display: flex;
+    flex: 1;
+}
