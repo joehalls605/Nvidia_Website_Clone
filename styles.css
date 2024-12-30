@@ -1,3 +1,7 @@
+:root{
+    --custom-button-color: #76b900;
+}
+
 html{
     margin: 0px;
 }
@@ -38,7 +42,17 @@ nav{
 
 .banner-row{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.banner-row button{
+    width: 150px;
+    background-color: var(--custom-button-color);
+    border: 0px;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: 400;
 }
 
 .banner-column{
