@@ -153,3 +153,16 @@ nav{
 #header-description{
     font-size: 20px;
 }
+
+h3{
+    margin: 0px;
+    font-size: 36px;
+    color: #FFFF;
+}
+
+#recommended{
+    background-color: #666;
+    height: 140px;
+    margin: 0px;
+    padding: 140px;
+}
