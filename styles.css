@@ -4,6 +4,10 @@
 
 html{
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    margin: 0px;
 }
 body{
     margin: 0px;
@@ -12,50 +16,110 @@ body{
 #header-text{
     margin-left: 9px;
 }
+#primary-logo{
+    width: 110px;
+}
+.icon{
+    width: 17px;
+    padding: 0px 3px 0px;
+}
+
+header{
+    margin: 0px;
+}
 
 #header{
     display: flex;
     flex-direction: row;
+    padding: 0px 25px 9px;
 }
 
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between; /* I'm using space-between to push the items to either side.*/
+    width: 100%;
 }
-#nav-links{
+
+#primary-nav-links{
+    display: flex;
+    gap:10px;
+    margin: 0px 22px 0px;
+    padding: 0px;
+}
+
+#secondary-nav-links{
+    display: flex;
+    gap:10px;
+    margin: 0px 22px 0px;
+    padding: 0px;
+}
+
+#primary-nav-links li{
+    font-weight: 400;
+    line-height: 22px;
+    color: #666;
     text-decoration: none;
     list-style-type: none;
-    display: flex;
-    font-size: 20px;
+    font-size: 17px;
+    align-content: center;
 }
-#nav-links li{
-    margin-right: 6px;
-    margin-left: 6px;
+#secondary-nav-links li{
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+    list-style-type: none;
+    align-content: center;
 }
 
 #banner{
     background-color: black;
     color: white;
     height: 700px;
+    background-image: url('./images/jensen.jpg');
 }
 
 .banner-row{
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 140px;
+    width: 500px;
 }
 
 .banner-row button{
-    width: 150px;
     background-color: var(--custom-button-color);
-    border: 0px;
-    padding: 10px;
-    margin-top: 10px;
-    font-weight: 400;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.25em;
+    min-width: 50px;
+    width: 140px;
+    padding: 13px 15px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
 }
 
 .banner-column{
     display: flex;
     flex: 1;
+}
+
+#header-category{
+    font-size: 20px;
+    margin: 0px;
+}
+
+#header-title{
+    margin: 0px;
+    font-size: 36px;    
+}
+
+#header-description{
+    font-size: 20px;
 }
