@@ -156,13 +156,37 @@ nav{
 
 h3{
     margin: 0px;
-    font-size: 36px;
+    font-size: 33px;
     color: #FFFF;
+    margin-bottom: 20px;
 }
 
 #recommended{
-    background-color: #666;
-    height: 140px;
+    background-color: #1a1a1a;
+    height: 270px;
     margin: 0px;
-    padding: 140px;
+    padding: 60px 140px 60px
+}
+
+.recommended-row{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+.recommended-card{ 
+    width: 319px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.recommended-card img{
+}
+
+.recommended-text{
+    font-size: 10px;
+    color: black;
+    padding: 2px;
+    margin: 0px;
 }
