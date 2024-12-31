@@ -156,7 +156,7 @@ nav{
 
 #recommended{
     background-color: #1a1a1a;
-    height: 270px;
+    height: 380px;
     margin: 0px;
     padding: 60px 140px 60px
 }
@@ -171,11 +171,17 @@ nav{
 .recommended-card{ 
     width: 319px;
     background-color: white;
-    padding-bottom: 20px;
 }
 
-.recommended-card img{
+.recommended-card-text{
+    padding: 13px;
 }
+
+.recommended-text-bold{
+    font-weight: 600;
+    margin: 7px 0px 13px;
+}
+
 
 .recommended-text{
     font-size: 10px;
@@ -230,4 +236,19 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#gtc{
+    display: flex;
+    flex-direction: row;
+    background-color: #F1F1F1;
+    padding: 60px 140px 60px
+}
+
+.gtc-column{
+    display: flex;
+}
+
+.gtc-column img{
+ width: 70px;
 }
