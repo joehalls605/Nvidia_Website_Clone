@@ -154,13 +154,6 @@ nav{
     font-size: 20px;
 }
 
-h3{
-    margin: 0px;
-    font-size: 33px;
-    color: #FFFF;
-    margin-bottom: 20px;
-}
-
 #recommended{
     background-color: #1a1a1a;
     height: 270px;
@@ -189,4 +182,52 @@ h3{
     color: black;
     padding: 2px;
     margin: 0px;
+}
+
+.recommended-text-row{
+    margin-top: 8px;
+}
+
+.recommended-header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Makes sure all elements in row vertically aligned */
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.recommended-header-row-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.recommended-header-row-text h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.recommended-header-row-icon img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.recommended-arrows {
+    display: flex;
+    gap: 5px; 
+}
+
+.arrow-button {
+    background-color: #76b900;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
