@@ -259,22 +259,25 @@ nav{
     font-size: 20px;
 }
 
-h4{
-    font-size: 40px;
-    margin: 0px;
-    padding: 0px;
-}
-
 #artificial-intelligence{
+ width: 100%;
+ padding: 60px 140px 60px
 
 }
 
 .artificial-intelligence-column{
-    
+    display: flex;
+    flex-direction: column;
+}
+
+.artificial-intelligence-row{
+    display: flex;
+    flex-direction: row;
 }
 
 .artificial-intelligence-card{
-    width: 340px;
+    width: 400px;
+    height: 500px;
     background-color: white;
     border-radius: 4px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -285,10 +288,11 @@ h4{
     rgba(0, 0, 0, 0.2) - shadow color, black with 20% opacity
     */
     overflow: hidden;
+    margin: 20px;
 }
 
 .artificial-intelligence-card img{
-    width: 340px;
+    width: 400px;
 }
 
 .artificial-intelligence-card-text{
@@ -308,4 +312,9 @@ h4{
     color: black;
     padding: 2px;
     margin: 0px;
+}
+
+.artificial-intelligence-arrows {
+    display: flex;
+    gap: 5px; 
 }
