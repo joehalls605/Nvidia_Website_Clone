@@ -31,7 +31,7 @@ header{
 #header{
     display: flex;
     flex-direction: row;
-    padding: 5px 25px 5px;
+    padding: 5px 130px 5px;
 }
 
 nav{
@@ -242,13 +242,70 @@ nav{
     display: flex;
     flex-direction: row;
     background-color: #F1F1F1;
-    padding: 60px 140px 60px
+    padding: 40px 140px 40px
 }
 
 .gtc-column{
     display: flex;
+    margin-left: 60px;
+    flex-direction: column;
 }
 
 .gtc-column img{
- width: 70px;
+ width: 90px;
+}
+
+.gtc-column p{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#artificial-intelligence{
+
+}
+
+.artificial-intelligence-column{
+    
+}
+
+.artificial-intelligence-card{
+    width: 340px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    /* 
+    0px - horizontal offset, no shadow shift to left or right
+    4px - vertical offset, shadow shifted 4px downward
+    10px - blur radius, shadow is 10px blurred
+    rgba(0, 0, 0, 0.2) - shadow color, black with 20% opacity
+    */
+    overflow: hidden;
+}
+
+.artificial-intelligence-card img{
+    width: 340px;
+}
+
+.artificial-intelligence-card-text{
+    padding: 13px;
+}
+
+.artificial-intelligence-text{
+    font-size: 20px;
+    color: black;
+    padding: 2px;
+    margin: 0px;
+}
+
+.artificial-intelligence-text-bold{
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+    padding: 2px;
+    margin: 0px;
 }
