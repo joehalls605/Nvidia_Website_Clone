@@ -349,9 +349,46 @@ nav{
     background-color: grey;
     margin-left: 60px;
     margin-right: 60px;
+    margin-top: 13px;
 }
 .ai-bar{
     background-color: #76b900;
     width: 30%;
     height: 5px;
+}
+
+#footer-banner{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.footer-banner-column{
+    flex: 1;
+    background-color: #000;
+    height: 400px;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+
+.footer-banner-column h4{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.footer-banner-column ul{
+    color: var(--custom-button-color);
+    font-size: 16px;
+    padding: 0px;
+}
+
+.footer-banner-column li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 10px;
 }
