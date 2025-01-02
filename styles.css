@@ -24,10 +24,6 @@ body{
     padding: 0px 3px 0px;
 }
 
-header{
-   
-}
-
 #header{
     display: flex;
     flex-direction: row;
@@ -77,6 +73,7 @@ nav{
     background-color: black;
     color: white;
     height: 700px;
+    width: 100%;
     background-image: url('./images/jensen.jpg');
     background-repeat: no-repeat;
 }
@@ -261,8 +258,13 @@ nav{
 
 #artificial-intelligence{
  width: 100%;
- padding: 60px 140px 60px
 
+}
+
+#artificial-intelligence h3{
+    font-size: 37px;
+    margin: 0px;
+    margin-bottom: 20px;
 }
 
 .artificial-intelligence-column{
@@ -270,14 +272,23 @@ nav{
     flex-direction: column;
 }
 
+.artificial-intelligence-header-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .artificial-intelligence-row{
     display: flex;
     flex-direction: row;
+    padding: 0px 40px;
 }
 
 .artificial-intelligence-card{
     width: 400px;
-    height: 500px;
+    height: 450px;
     background-color: white;
     border-radius: 4px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -317,4 +328,30 @@ nav{
 .artificial-intelligence-arrows {
     display: flex;
     gap: 5px; 
+}
+
+
+.quick-links p{
+    font-size: 22px;
+    width: 500px;
+    word-spacing: 3px;
+}
+
+.quick-links li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.ai-bar-container{
+    height: 5px;
+    width: 1300px;
+    display: flex;
+    background-color: grey;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.ai-bar{
+    background-color: #76b900;
+    width: 30%;
+    height: 5px;
 }
