@@ -5,11 +5,9 @@
 html{
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
 }
 h1{
-    margin: 0px;
-}
-body{
     margin: 0px;
 }
 
@@ -24,10 +22,14 @@ body{
     padding: 0px 3px 0px;
 }
 
+body{
+    margin: 0px;
+}
+
 #header{
     display: flex;
     flex-direction: row;
-    padding: 5px 130px 5px;
+    padding: 5px 10%;
 }
 
 nav{
@@ -82,7 +84,6 @@ nav{
     display: flex;
     flex-direction: column;
     padding: 140px;
-    width: 100%;
 }
 
 .banner-row button{
@@ -94,10 +95,11 @@ nav{
     display: inline-block;
     font-size: 15px;
     font-weight: 700;
-    width: 140px;
-    position: relative;
+    width: 10%;
+    height: 10%;
     text-align: center;
     text-decoration: none;
+    text-overflow: none;
 }
 
 .banner-column{
@@ -106,7 +108,7 @@ nav{
 }
 
 #card-row{
-    margin-top: 220px;
+    margin-top: 160px;
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -140,22 +142,25 @@ nav{
 #header-category{
     font-size: 20px;
     margin: 0px;
+    width: 50%;
 }
 
 #header-title{
     margin: 0px;
     font-size: 36px;    
+    width: 50%;
 }
 
 #header-description{
     font-size: 20px;
+    width: 50%;
 }
 
 #recommended{
     background-color: #1a1a1a;
     height: 380px;
     margin: 0px;
-    padding: 60px 140px 60px
+    padding: 60px 140px 0px
 }
 
 .recommended-row{
@@ -166,12 +171,16 @@ nav{
 }
 
 .recommended-card{ 
-    width: 319px;
+    width: 25%;
     background-color: white;
 }
 
 .recommended-card-text{
     padding: 13px;
+}
+
+.recommended-card img{
+    width: 100%;
 }
 
 .recommended-text-bold{
@@ -344,7 +353,6 @@ nav{
 
 .ai-bar-container{
     height: 5px;
-    width: 1300px;
     display: flex;
     background-color: grey;
     margin-left: 60px;
@@ -358,7 +366,6 @@ nav{
 }
 
 #footer-banner{
-    width: 100%;
     background-color: #000;
     display: flex;
     margin-top: 40px;
