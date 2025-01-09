@@ -174,7 +174,8 @@ nav{
     background-color: #1a1a1a;
     height: 380px;
     margin: 0px;
-    padding: 60px 140px 0px
+    padding: 60px 140px 0px;
+    margin-bottom: 70px;
 }
 
 .recommended-row{
@@ -262,7 +263,9 @@ nav{
     display: flex;
     flex-direction: row;
     background-color: #F1F1F1;
-    padding: 40px 140px 40px
+    padding: 40px 140px 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .gtc-column{
@@ -282,6 +285,19 @@ nav{
 #artificial-intelligence{
  width: 100%;
 
+}
+
+.artificial-card{
+    flex-shrink: 0; /* Prevents cards from shrinking */
+    width: 25%;
+}
+
+#artifical-card-container{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden; /* Hides overflowing cards */
+    scroll-behavior: smooth;
+    width: 100%;  /* Limit visible cards to the container width */
 }
 
 #artificial-intelligence h3{
@@ -382,7 +398,7 @@ nav{
 #footer-banner{
     background-color: #000;
     display: flex;
-    margin-top: 40px;
+    margin-top: 80px;
     padding: 40px;
     flex-direction: column;
 }
