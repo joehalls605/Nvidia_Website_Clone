@@ -107,6 +107,19 @@ nav{
     flex: 1;
 }
 
+#card-container{
+    display: flex;
+    gap: 15px;
+    overflow: hidden; /* Hides overflowing cards */
+    scroll-behavior: smooth;
+    width: 100%;  /* Limit visible cards to the container width */
+}
+
+.recommended-card{
+    flex-shrink: 0; /* Prevents cards from shrinking */
+    width: 25%;
+}
+
 #card-row{
     margin-top: 160px;
     display: flex;
@@ -116,6 +129,7 @@ nav{
 
 .card{
     width: 140px;
+    flex-grow: 1;
 }
 
 .card-category{

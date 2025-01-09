@@ -90,48 +90,48 @@
                     <div class="recommended-header-row-left">
                         <div class="recommended-header-row-text">
                             <h3>Recommended For You</h3>
+                        </div>
+                        <div class="recommended-header-row-icon">
+                            <img class="recommended-icon" src="./images/cog-wheel.png">
+                        </div>
                     </div>
-                    <div class="recommended-header-row-icon">
-                        <img class="recommended-icon" src="./images/cog-wheel.png">
-                    </div>
-                </div>
                     <div class="recommended-arrows">
-                        <button class="arrow-button left-arrow"></button>
-                        <button class="arrow-button right-arrow"></button>
+                        <button id="left-arrow" class="arrow-button left-arrow">←</button>
+                        <button id="right-arrow" class="arrow-button right-arrow">→</button>
                     </div>
                 </div>
-               <div class="recommended-row">
-                <div class="recommended-card">
-                    <img src="./images/thumbnail.png">
-                    <div class="recommended-card-text">
-                        <p class="recommended-text">Games | News</p>
-                        <p class="recommended-text-bold">NVIDIA App</p>
+                <div id="card-container" class="recommended-row">
+                    <!-- Cards -->
+                    <div class="recommended-card">
+                        <img src="./images/thumbnail.png">
+                        <div class="recommended-card-text">
+                            <p class="recommended-text">Games | News</p>
+                            <p class="recommended-text-bold">Game 1</p>
+                        </div>
+                    </div>
+                    <div class="recommended-card">
+                        <img src="./images/thumbnail.png">
+                        <div class="recommended-card-text">
+                            <p class="recommended-text">Games | News</p>
+                            <p class="recommended-text-bold">Game 2</p>
+                        </div>
+                    </div>
+                    <div class="recommended-card">
+                        <img src="./images/thumbnail.png">
+                        <div class="recommended-card-text">
+                            <p class="recommended-text">Games | News</p>
+                            <p class="recommended-text-bold">Game 3</p>
+                        </div>
+                    </div>
+                    <div class="recommended-card">
+                        <img src="./images/thumbnail.png">
+                        <div class="recommended-card-text">
+                            <p class="recommended-text">Games | News</p>
+                            <p class="recommended-text-bold">Game 4</p>
+                        </div>
                     </div>
                 </div>
-                <div class="recommended-card">
-                    <img src="./images/thumbnail.png">
-                    <div class="recommended-card-text">
-                        <p class="recommended-text">Games | News</p>
-                        <p class="recommended-text-bold">NVIDIA App</p>
-                    </div>
-                </div>
-                <div class="recommended-card">
-                    <img src="./images/thumbnail.png">
-                    <div class="recommended-card-text">
-                        <p class="recommended-text">Games | News</p>
-                        <p class="recommended-text-bold">NVIDIA App</p>
-                    </div>
-                </div>
-                <div class="recommended-card">
-                    <img src="./images/thumbnail.png">
-                    <div class="recommended-card-text">
-                        <p class="recommended-text">Games | News</p>
-                        <p class="recommended-text-bold">NVIDIA App</p>
-                    </div>
-                </div>
-               </div>
-
-            </div>
+            
             <div id="gtc">
                 <div class="gtc-column">
                     <img src="./images/GTC.png">
@@ -246,6 +246,7 @@
             <p>Privacy Policy | Manage My Privacy | Terms of Service | Accessibility | Corporate Policies | Product Security | Contact</p>
             <p class="copyright">Copyright © 2024 NVIDIA Corporation</p>
         </footer>
+        <script src="./script.js"></script>
     </body>
 
 
