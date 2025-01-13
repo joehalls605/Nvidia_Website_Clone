@@ -1,19 +1,21 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const container = document.querySelector(".card-container");
+    const recommendedContainer = document.querySelector(".card-container");
+
     const leftArrow = document.getElementById("left-arrow");
     const rightArrow = document.getElementById("right-arrow");
-
     // Amount to scroll on button click
-    const scrollAmount = container.offsetWidth / 2; /* offset width gives the layout width of the element in pixels, including padding and borders, but not margins or scrollbars*/
+    const scrollAmount = recommendedContainer.offsetWidth / 2; // for recommended section
 
+    // Scroll functionality for "Recommended" section
     leftArrow.addEventListener("click", () => {
-        container.scrollBy({left: -scrollAmount, behavior: "smooth"});
+        recommendedContainer.scrollBy({left: -scrollAmount, behavior: "smooth"});
     });
 
     rightArrow.addEventListener("click", () => {
-        container.scrollBy({ left: scrollAmount, behavior: "smooth" });
+        recommendedContainer.scrollBy({left: scrollAmount, behavior: "smooth"});
     });
 });
+
 
 /* 
 How Scroll Width Works:
@@ -26,3 +28,5 @@ JS then uses the scrollWidth property to figure out how far it can scroll horizo
 left: -scrollAmount, scrolls the container left by scroll amount pixels, negative value moves left.
 left: scrollAmount, scrolls the container right by scroll amount pixels, positive value moves right.
 */
+
+

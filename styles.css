@@ -116,10 +116,6 @@ nav{
     width: 100%;  /* Limit visible cards to the container width */
 }
 
-.recommended-card{
-    flex-shrink: 0; /* Prevents cards from shrinking */
-    width: 25%;
-}
 
 #card-row{
     margin-top: 160px;
@@ -171,82 +167,6 @@ nav{
     width: 50%;
 }
 
-#recommended{
-    background-color: #1a1a1a;
-    height: 380px;
-    margin: 0px;
-    padding: 60px 140px 0px;
-    margin-bottom: 70px;
-}
-
-.recommended-row{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    padding-bottom: 10px;
-}
-
-.recommended-card{ 
-    width: 25%;
-    background-color: white;
-}
-
-.recommended-card-text{
-    padding: 13px;
-}
-
-.recommended-card img{
-    width: 100%;
-}
-
-.recommended-text-bold{
-    font-weight: 600;
-    margin: 7px 0px 13px;
-}
-
-
-.recommended-text{
-    font-size: 10px;
-    color: black;
-    padding: 2px;
-    margin: 0px;
-}
-
-.recommended-text-row{
-    margin-top: 8px;
-}
-
-.recommended-header-row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /* Makes sure all elements in row vertically aligned */
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-.recommended-header-row-left {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.recommended-header-row-text h3 {
-    margin: 0;
-    font-size: 24px;
-    color: #fff;
-}
-
-.recommended-header-row-icon img {
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-}
-
-.recommended-arrows {
-    display: flex;
-    gap: 5px; 
-}
-
 .arrow-button {
     background-color: #76b900;
     border: none;
@@ -282,6 +202,133 @@ nav{
 .gtc-column p{
     font-size: 20px;
 }
+
+
+#recommended {
+    background-color: #1a1a1a;
+    height: 380px;
+    margin: 0px;
+    padding: 60px 140px 0px;
+    margin-bottom: 70px;
+}
+
+#artificial{
+    color: black;
+    padding: 30px;
+}
+
+#details-and-cards{
+    display: flex;
+    flex-direction: row;
+}
+.details-column{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.card-column{
+    flex: 3;
+}
+
+.carousel-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Makes sure all elements in row vertically aligned */
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.carousel-header-row-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.carousel-header-row-text h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #000000;
+}
+
+.carousel-header-row-icon img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.carousel-arrows {
+    display: flex;
+    gap: 5px;
+}
+
+.arrow-button {
+    background-color: #76b900;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+.carousel-card {
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-card img {
+    width: 100%;
+}
+
+.carousel-card-text {
+    padding: 13px;
+}
+
+.carousel-text {
+    font-size: 10px;
+    color: black;
+    padding: 2px;
+    margin: 0px;
+}
+
+.carousel-text-bold {
+    font-weight: 600;
+    margin: 7px 0px 13px;
+}
+
+.carousel-row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.carousel-card {
+    flex-shrink: 0; /* Prevents cards from shrinking */
+    width: 25%;
+}
+
+/* If you want to add styles for the section title */
+#carousel h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+
 
 #artificial-intelligence{
  width: 100%;
