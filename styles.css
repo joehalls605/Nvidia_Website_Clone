@@ -284,31 +284,40 @@ nav{
 
 #artificial-intelligence{
  width: 100%;
-
+ margin-bottom: 40px;
 }
 
 .artificial-card{
     flex-shrink: 0; /* Prevents cards from shrinking */
-    width: 25%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    width: 30%;
 }
 
+.artificial-card img{
+    width: 100%;
+}
+
+
 #artifical-card-container{
-    display: flex;
-    flex-direction: row;
-    overflow: hidden; /* Hides overflowing cards */
-    scroll-behavior: smooth;
-    width: 100%;  /* Limit visible cards to the container width */
+    
 }
 
 #artificial-intelligence h3{
     font-size: 37px;
+    font-weight: 700;
     margin: 0px;
     margin-bottom: 20px;
 }
 
-.artificial-intelligence-column{
+.artificial-intelligence-details{
+    flex: 2;
+}
+
+.artificial-intelligence-cards{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 25px;
+    flex: 3;
 }
 
 .artificial-intelligence-header-row{
@@ -323,6 +332,7 @@ nav{
     display: flex;
     flex-direction: row;
     padding: 0px 40px;
+    gap: 20px;
 }
 
 .artificial-intelligence-card{
