@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const container = document.getElementById("card-container");
+    const container = document.querySelector(".card-container");
     const leftArrow = document.getElementById("left-arrow");
     const rightArrow = document.getElementById("right-arrow");
 
